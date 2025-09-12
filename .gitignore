@@ -1,0 +1,36 @@
+# ---- Unity standard ignores ----
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+MemoryCaptures/
+.vs/
+.idea/
+.gradle/
+.DS_Store
+Builds/
+Build/
+
+# Visual Studio / Rider artifacts
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Crash/Reports
+sysinfo.txt
+
+# Unity auto-generated
+*.unitypackage
+
+# Keep these tracked:
+!Packages/
+!ProjectSettings/
