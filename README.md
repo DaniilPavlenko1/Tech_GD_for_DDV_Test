@@ -86,6 +86,14 @@ Play the main scene: Scenes/Main Scene.unity.
 
 Controls: WASD / Mouse / E (Interact) / Shift (Run) / C (Camera toggle) / Q (Wave)
 
+### Materials & Render Pipeline
+This project uses the **Unity Built-in Render Pipeline**.  
+If you see pink (magenta) materials after opening the project:
+
+1. Go to `Assets/ithappy/Animals_FREE/Render_Pipeline_Convert`.
+2. Apply the preset **Unity_2021_Built-In_source** (double-click it).
+3. Unity will automatically reassign the correct materials for the Built-in pipeline.
+
 👤 Author
 
 Daniil Pavlenko
