@@ -1,38 +1,93 @@
-# Technical Game Designer Test
+📌 Overview
 
-## 🎥 Demo Video
-Add your YouTube link here.
+This project was created as part of a Technical Game Designer test assignment.
+It demonstrates skills in Unity scene setup, gameplay scripting, AI behavior, UI/UX implementation, and optimization.
 
-## 📖 About
-A small, cozy farming prototype inspired by *Disney Dreamlight Valley*.
-Plant → Grow → Harvest a carrot, then feed a rabbit NPC who follows briefly with hearts VFX.
+The goal of the assignment was to build a small but functional vertical slice showcasing:
 
-## 🛠 Tech
-- Unity 2022.3.58f1 LTS
-- Cinemachine
-- TextMeshPro
+Farming mechanics (planting, watering, growth stages, harvesting).
 
-## 📂 Project Structure
-```
-Assets/
-  Scripts/       # Core/Player/Farming/NPC/Camera/Utilities
-  Prefabs/
-  Scenes/
-  UI/
-Docs/            # Screenshots for README
-```
+Interactive UI (world-space progress bars, sliders).
 
-## 🚀 How to Run
-1) Clone the repo  
-2) Open with **Unity 2022.3 LTS**  
-3) Open `Assets/Scenes/Main.unity`  
-4) Press ▶️ Play  
+AI & Navigation (animals following the player, reacting to items).
 
-**Controls:** WASD / Mouse / **E** (Interact) / **Shift** (Run) / **C** (Camera toggle)
+Camera setup & player controls (Cinemachine FreeLook, smooth movement).
 
-## 📸 Screenshots
-Place images in `Docs/` and reference like:
-![screenshot1](Docs/screen1.png)
+Optimization & clean-up of the scene for production readiness.
 
-## ✨ Credits
-Free assets from the Unity Asset Store (listed in the submission PDF).
+🎮 Features:
+🌱 Farming System
+
+Planting carrot seeds.
+
+Watering crops with watering can animation.
+
+Growth stages with progress bar UI.
+
+Harvesting system with item collection.
+
+🐾 AI & Interaction
+
+NavMesh-based animal movement.
+
+Animals (deer, chicken, dog, etc.) react to player interaction.
+
+Feeding mechanic (e.g., giving carrots).
+
+Temporary “Follow Player” state after interaction.
+
+Heart particle effects when bonding with animals.
+
+🧑‍🤝‍🧑 Player & Camera
+
+Player movement via CharacterController (smooth navigation over objects).
+
+Cinemachine FreeLook camera with fixed jitter issues.
+
+Interaction system with triggers (doors, crops, animals).
+
+🎨 UI / UX
+
+World-space sliders and progress bars for crops.
+
+Carrots counter.
+
+🔧 Optimization & Clean-Up
+
+Removed unused assets & objects.
+
+Organized scene hierarchy.
+
+Configured Skybox and lighting for consistent visuals.
+
+🛠️ Tech Stack
+
+Engine: Unity (2022.3.58f1 LTS)
+
+Scripting: C#
+
+AI: Unity NavMesh
+
+Camera: Cinemachine
+
+Version Control: GitHub
+
+📹 Demo Video
+
+👉 [https://drive.google.com/file/d/1tTA2g3-5DO-jYhmQjxxvE84vz0q8qJIy/view?usp=sharing]
+
+🚀 How to Run
+
+Clone the repository.
+
+Open in Unity (same version as used in project).
+
+Play the main scene: Scenes/Main Scene.unity.
+
+Controls: WASD / Mouse / E (Interact) / Shift (Run) / C (Camera toggle) / Q (Wave)
+
+👤 Author
+
+Daniil Pavlenko
+
+🎮 Technical Game Designer
